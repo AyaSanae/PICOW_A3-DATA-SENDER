@@ -7,6 +7,7 @@ The SENDER will send data every two seconds.
 Data conversion is achieved by transforming the resc_serialize structure into a byte array.
 
 When compiling, please link the Bluetooth library, for example:
-            gcc -o data_serialize_send data_serialize_send.c -lbluetooth
-
+```
+gcc -o data_serialize_send data_serialize_send.c -lbluetooth
+```
 
